@@ -1,0 +1,19 @@
+[project]
+name = "arduino-scripts"
+version = "0.1.0"
+description = "Tooling to work with arduino."
+authors = [
+	{name="Gustavo Cordova Cardenas", email = "gdcordova@icloud.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11, <3.13"
+dependencies = [
+	"debugpy>=1.8.15, ==1.8.*",
+	"pyserial>=3.5, ==3.5.*"
+]
+[tool.ruff]
+indent-width = 4
+line-length = 120
+
+[tool.ruff.format]
+indent-style = "tab"
