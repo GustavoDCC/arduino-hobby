@@ -37,7 +37,7 @@ void loop() {
   Serial.println(" cm");
 
   // Enciende LED si está cerca
-  if (distance > 20) {
+  if (distance < 20) {
     digitalWrite(ledPin, HIGH);
   } else {
     digitalWrite(ledPin, LOW);
